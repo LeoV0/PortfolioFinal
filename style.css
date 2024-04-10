@@ -576,3 +576,22 @@ svg:hover {
 img:hover{
     cursor: pointer;
 }
+
+
+.reseaux-container {
+    position: fixed;
+    top: 63%;
+    right: 35px;
+    transform: translateY(-50%);
+}
+
+.reseaux img {
+    width: 60px;
+    height: 60px;
+    filter: invert(65%) sepia(42%) saturate(2317%) hue-rotate(202deg) brightness(94%) contrast(93%);
+
+}
+
+.reseaux img:hover {
+    filter: invert(23%) sepia(99%) saturate(4873%) hue-rotate(279deg) brightness(97%) contrast(92%);
+}

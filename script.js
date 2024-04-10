@@ -2,6 +2,7 @@ document.getElementById('lienBouton').addEventListener('click', function() {
     var bouton = document.getElementById('lienBouton');
     var accueil = document.querySelector('.accueil');
     var listCard = document.querySelector('.list-card');
+    var reseaux = document.querySelector('.reseaux');
 
     if (bouton.textContent === "Commencer") {
         accueil.style.backgroundImage = "url(images/2206_w026_n002_2115b_p1_2115.jpg)";
@@ -9,12 +10,14 @@ document.getElementById('lienBouton').addEventListener('click', function() {
         bouton.classList.add("arreter");
         bouton.classList.remove("commencer");
         listCard.classList.add("invisible");
+        reseaux.classList.add("invisible");
     } else {
         accueil.style.backgroundImage = "url(images/2306.w026.n002.3461B.p1.3461.jpg)";
         bouton.textContent = "Commencer";
         bouton.classList.remove("arreter");
         bouton.classList.add("commencer");
         listCard.classList.remove("invisible");
+        reseaux.classList.remove("invisible");
     }
 });
 
