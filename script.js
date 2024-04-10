@@ -54,11 +54,3 @@ closeIcons.forEach((closeIcon, index) => {
     });
 });
 
-// Sélectionnez l'élément li contenant l'icône
-const iconLi = document.querySelector('.item-nav');
-
-// Ajoutez un gestionnaire d'événements au clic sur l'icône pour rediriger vers index.html
-iconLi.addEventListener('click', function() {
-    // Redirigez l'utilisateur vers index.html
-    window.location.href = 'index.html';
-});
